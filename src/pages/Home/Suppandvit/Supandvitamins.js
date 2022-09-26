@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import  './Otg.css'
+import React from 'react';
+
+const Supandvitamins = (vitsandsupprops) => {
+const {name,img,price} =vitsandsupprops.vitandsups; 
 
 
-
-const Otg = (props) => {
-
- const {name,img,price} =props.otg; 
- 
 return (
 <div className="otg-content ">
   <div className="card w-48 h-60 ml-6 bg-base-100 shadow-xl">
@@ -31,4 +28,4 @@ return (
 );
 };
 
-export default Otg;
+export default Supandvitamins;
