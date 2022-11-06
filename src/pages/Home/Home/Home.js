@@ -6,6 +6,8 @@ import './Home.css'
 import Banner from '../Banner/Banner';
 import Otg from '../Otg/Otg';
 import Supandvitamins from '../Suppandvit/Supandvitamins';
+import { Map } from '../Map/Map';
+
 
 
 const HOME = () => {
@@ -28,7 +30,7 @@ return (
 <div>
   <Banner></Banner>   
   <h2 className="text-left font-semibold text-2xl ml-4 mb-5">OTC Medicines</h2>
-<div className="otg-container">
+<div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-2">
 
  {
   otgs.map(otg=><Otg key={otg.id}
@@ -38,7 +40,7 @@ return (
  }
 </div>
 <h2 className="text-left font-semibold text-2xl ml-4 mt-5 mb-5">Supplements and Vitamins</h2>
-<div className="otg-container">
+<div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-2">
 
  {
   vitandsup.map(vitandsups=><Supandvitamins key={vitandsups.id}
@@ -47,7 +49,7 @@ return (
   ></Supandvitamins>)
  }
 </div>
-                                               
+  <Map></Map>                                         
 </div>
 );
 };
