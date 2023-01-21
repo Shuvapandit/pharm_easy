@@ -10,7 +10,7 @@ const Otg = (props) => {
 return (
 <div className="otg-content ">
   <div className="card w-48 h-60 ml-6 bg-base-100 shadow-xl">
-  <figure><img  className='w-32' src={img} alt="Shoes" /></figure>
+  <figure><img  className='w-32' src={img} alt="otg" /></figure>
   <div className="h-72 ml-5">
     
     <h2 className="card-title">{name}</h2>

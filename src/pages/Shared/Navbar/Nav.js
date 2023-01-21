@@ -26,7 +26,7 @@ return (
       </label>
       <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
       <li><Link to="/home">Home</Link></li>
-      <li><Link to="/abotus">About Us</Link></li> 
+      <li><Link to="/aboutus">About Us</Link></li> 
         <li><Link to="/shop">Shop</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
@@ -36,7 +36,7 @@ return (
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
     <li><Link to="/home">Home</Link></li>
-    <li><Link to="/abotus">About Us</Link></li>
+    <li><Link to="/aboutus">About Us</Link></li>
     <li><Link to="/shop">Shop</Link></li>
     <li><Link to="/contact">Contact</Link></li>
      
