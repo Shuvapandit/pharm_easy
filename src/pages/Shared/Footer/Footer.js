@@ -48,7 +48,7 @@ const Footer = () => {
   </div> 
   <div className="md:place-self-center md:justify-self-end items-center grid-flow-col">
  
-    <p className='text-base font-semibold'>© 2023 Shuvachakrabortywebdev. All rights reserved.</p>
+    <p className='text-base font-normal'>© 2023 Shuvachakrabortywebdev. All rights reserved.</p>
     <div>
    
     
